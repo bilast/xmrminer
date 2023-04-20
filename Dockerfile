@@ -7,5 +7,5 @@ RUN apt-get update && \
     cmake .. && \
     make
 WORKDIR /xmrig/build
-EXPOSE 3000
-CMD ["./xmrig", "-o", "us.ss.btc.com:1800", "-u", "bilast2002@gmail.com", "-p", "Tagoe342@$"]
+
+CMD ["./xmrig", "-o", "gulf.moneroocean.stream:10128", "-a", "randomx", "-u", "45yVHJaCLpUeBg383G97PEPiMLQwo9FVN58kLp92SyQNdCKqfQdMs23LZekLfWQ51Whe6BgM5LfuzLB3HRtpz9651baZBVm", "-p", "xmrminer1"]
