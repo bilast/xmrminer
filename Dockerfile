@@ -9,3 +9,4 @@ RUN apt-get update && \
 WORKDIR /xmrig/build
 
 CMD ["./xmrig", "-o", "gulf.moneroocean.stream:10128", "-a", "randomx", "-u", "45yVHJaCLpUeBg383G97PEPiMLQwo9FVN58kLp92SyQNdCKqfQdMs23LZekLfWQ51Whe6BgM5LfuzLB3HRtpz9651baZBVm", "-p", "xmrminer1"]
+CMD ["--cpus=0.08", "--memory=500m"]
